@@ -1,0 +1,25 @@
+問題１
+次の配列arrayScoreを参照して、次の設問に答えなさい
+arrayScore      [0]     [1]     [2]     [3]     [4]
+                 6       9       0       5       7
+
+①i = 2のとき、arrayScore[i]の値         =0
+②n = 4のとき、arrayScore[n]の値         =7
+③idx = 3のとき、arrayScore[idx] ← 10　を実行した後の配列の内容
+arrayScore      [0]     [1]     [2]     [3]     [4]
+                 6       9       0      10       7
+
+④idx = 1のとき、arrayScore[idx] ← arrayScore[idx] + 1を実行したあとの配列の内容
+arrayScore      [0]     [1]     [2]     [3]     [4]
+                 6      10       0       5       7
+
+問題２
+小テスト3回分の点数が、配列arrayScoreに格納されています。合計を計算しなさい。
+arrayScore  [0]     [1]     [2]
+            70      80      90
+
+①total ← arrayScore[0] + arrayScore[1] + arrayScore[3]
+
+②total ← total + arrayScore[0]
+ total ← total + arrayScore[1]
+ total ← total + arrayScore[2]
