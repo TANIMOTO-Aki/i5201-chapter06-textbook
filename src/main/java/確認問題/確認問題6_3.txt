@@ -1,0 +1,15 @@
+問題1
+int型の配列arraySaleを生成するのに適切な方法を選びなさい。なお、要素数を10個とする。
+①int[] arraySale = new int[10];             //正しい
+②int[] arraySale = int[10];                 //配列の確保にはnew演算子が必要
+③int[] arraySale = int(10);                 //要素数は大カッコ[]で囲む必要がある
+④int[] arraySale = create int[10];          //配列の確保にはnew演算子を使う
+A.①
+
+問題2
+String型の配列arrayHyokaを生成するのに適切な方法を選びなさい。
+①String arrayHyoka = { "優", "良", "可", "不可" };      //配列のデータ型に[]が必要
+②String arrayHyoka[4] = { "優", "良", "可", "不可" };   //変数名に[4]は不要
+③String[] arrayHyoka = { "優", "良", "可", "不可" };    //正しい
+④String[4] arrayHyoka = { "優", "良", "可", "不可" };   //要素数は初期化データ数で決まるため要素数の宣言は不要
+A.③
